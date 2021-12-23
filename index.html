@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="static/app.css" />
+    <script src="static/app.js"></script>
+    <title>Document</title>
+  </head>
+  <body onload="loadData()">
+    <div class="title">Python Html Demo</div>
+    <div class="layout">
+      <div class="messageinput">
+        <textarea id="inputmessage"></textarea><br />
+        <input
+          type="button"
+          title="Send"
+          value="Send"
+          onclick="handleSubmit()"
+        />
+      </div>
+      <div class="messagecontainer">
+        Message: <span id="message">Loading....</span>
+        <br />
+        <div id="moremessage"></div>
+      </div>
+    </div>
+  </body>
+</html>
