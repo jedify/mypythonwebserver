@@ -9,3 +9,7 @@ Usage of LIST: `$curl -X GET 127.0.0.1:8080`
 ```
 ## For Instance,
 	$curl -X GET 127.0.0.1:8080
+
+
+# Access UI
+http://localhost:8080/index.html
